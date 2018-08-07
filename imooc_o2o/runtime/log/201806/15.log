@@ -1,0 +1,293 @@
+[ 2018-06-15T09:06:27+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/index/index
+[ log ] localhost:88/imooc_o2o/public/admin/index/index [运行时间：0.086498s][吞吐率：11.56req/s] [内存消耗：1,369.47kb] [文件加载：44]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/test1/usher.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-15T09:06:27+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/index/welcome.html
+[ log ] localhost:88/imooc_o2o/public/admin/index/welcome.html [运行时间：0.119594s][吞吐率：8.36req/s] [内存消耗：1,309.21kb] [文件加载：43]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /Users/usher/www/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-15T09:06:33+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/index/index
+[ log ] localhost:88/imooc_o2o/public/bis/index/index [运行时间：0.048505s][吞吐率：20.62req/s] [内存消耗：1,663.09kb] [文件加载：48]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Index.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-15T09:06:42+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/registe/index
+[ log ] localhost:88/imooc_o2o/public/bis/registe/index [运行时间：0.036646s][吞吐率：27.29req/s] [内存消耗：1,110.71kb] [文件加载：38]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'registe',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-15T09:07:10+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/register/index
+[ log ] localhost:88/imooc_o2o/public/bis/register/index [运行时间：0.073459s][吞吐率：13.61req/s] [内存消耗：2,627.71kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'Category',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-15T09:07:12+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/register/
+[ log ] localhost:88/imooc_o2o/public/bis/register/ [运行时间：0.062808s][吞吐率：15.92req/s] [内存消耗：2,477.77kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/register/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'Category',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-15T09:07:12+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/register/
+[ log ] localhost:88/imooc_o2o/public/bis/register/ [运行时间：0.055595s][吞吐率：17.99req/s] [内存消耗：2,477.77kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/register/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'Category',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-15T09:13:26+08:00 ] ::1 ::1 POST /imooc_o2o/public/api/category/getcategorybyparentid.html
+[ log ] localhost:88/imooc_o2o/public/api/category/getcategorybyparentid.html [运行时间：0.085414s][吞吐率：11.71req/s] [内存消耗：2,256.35kb] [文件加载：54]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:88',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/register/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ /Users/usher/www/imooc_o2o/application/api/controller/Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-15T09:13:30+08:00 ] ::1 ::1 POST /imooc_o2o/public/api/category/getcategorybyparentid.html
+[ log ] localhost:88/imooc_o2o/public/api/category/getcategorybyparentid.html [运行时间：0.040107s][吞吐率：24.93req/s] [内存消耗：2,256.35kb] [文件加载：54]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:88',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/register/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ /Users/usher/www/imooc_o2o/application/api/controller/Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

@@ -1,0 +1,102 @@
+[ 2018-06-16T10:25:36+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/register/index
+[ log ] localhost:88/imooc_o2o/public/bis/register/index [运行时间：0.258609s][吞吐率：3.87req/s] [内存消耗：2,477.55kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=ee38d335ed0f1f6606eb9f85d933833e; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'Category',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-16T10:25:39+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/register/
+[ log ] localhost:88/imooc_o2o/public/bis/register/ [运行时间：0.058503s][吞吐率：17.09req/s] [内存消耗：2,478.25kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/register/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=ee38d335ed0f1f6606eb9f85d933833e; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'Category',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-16T10:25:39+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/register/
+[ log ] localhost:88/imooc_o2o/public/bis/register/ [运行时间：0.050863s][吞吐率：19.66req/s] [内存消耗：2,477.41kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/register/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=ee38d335ed0f1f6606eb9f85d933833e; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/register/index.html [ array (
+  0 => 'citys',
+  1 => 'Category',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

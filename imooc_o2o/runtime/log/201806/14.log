@@ -1,0 +1,3707 @@
+[ 2018-06-14T14:20:06+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/index/index
+[ log ] localhost:88/imooc_o2o/public/admin/index/index [运行时间：0.057139s][吞吐率：17.50req/s] [内存消耗：1,578.63kb] [文件加载：46]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/test1/usher.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:06+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/index/welcome.html
+[ log ] localhost:88/imooc_o2o/public/admin/index/welcome.html [运行时间：0.098129s][吞吐率：10.19req/s] [内存消耗：1,308.38kb] [文件加载：43]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /Users/usher/www/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:13+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.073608s][吞吐率：13.59req/s] [内存消耗：2,688.73kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:16+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.048441s][吞吐率：20.64req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:18+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.048235s][吞吐率：20.73req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:18+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.075139s][吞吐率：13.31req/s] [内存消耗：2,762.62kb] [文件加载：61]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:20+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.045839s][吞吐率：21.82req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:21+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/featured/index.html [运行时间：0.060484s][吞吐率：16.53req/s] [内存消耗：2,584.20kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:22+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/add.html
+[ log ] localhost:88/imooc_o2o/public/admin/featured/add.html [运行时间：0.034916s][吞吐率：28.64req/s] [内存消耗：1,571.20kb] [文件加载：46]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->add[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/add.html [ array (
+  0 => 'types',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:22+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/
+[ log ] localhost:88/imooc_o2o/public/admin/featured/ [运行时间：0.047195s][吞吐率：21.19req/s] [内存消耗：2,442.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/featured/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:24+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/featured/index.html [运行时间：0.044553s][吞吐率：22.45req/s] [内存消耗：2,443.16kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:25+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/add.html
+[ log ] localhost:88/imooc_o2o/public/admin/featured/add.html [运行时间：0.032977s][吞吐率：30.32req/s] [内存消耗：1,366.10kb] [文件加载：44]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->add[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/add.html [ array (
+  0 => 'types',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:20:26+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/
+[ log ] localhost:88/imooc_o2o/public/admin/featured/ [运行时间：0.048046s][吞吐率：20.81req/s] [内存消耗：2,442.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/featured/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:27:46+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/add.html
+[ log ] localhost:88/imooc_o2o/public/admin/featured/add.html [运行时间：0.068335s][吞吐率：14.63req/s] [内存消耗：1,366.10kb] [文件加载：44]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->add[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/add.html [ array (
+  0 => 'types',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:27:46+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/
+[ log ] localhost:88/imooc_o2o/public/admin/featured/ [运行时间：0.085658s][吞吐率：11.67req/s] [内存消耗：2,442.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/featured/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:05+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/index/index
+[ log ] localhost:88/imooc_o2o/public/admin/index/index [运行时间：0.033544s][吞吐率：29.81req/s] [内存消耗：1,369.48kb] [文件加载：44]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/test1/usher.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:05+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/index/welcome.html
+[ log ] localhost:88/imooc_o2o/public/admin/index/welcome.html [运行时间：0.122166s][吞吐率：8.19req/s] [内存消耗：1,308.38kb] [文件加载：43]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /Users/usher/www/imooc_o2o/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:08+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.071125s][吞吐率：14.06req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:10+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.067915s][吞吐率：14.72req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:16+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.059404s][吞吐率：16.83req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:16+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.047297s][吞吐率：21.14req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:20+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/bis/detail.html?id=13
+[ log ] localhost:88/imooc_o2o/public/admin/bis/detail.html?id=13 [运行时间：0.054299s][吞吐率：18.42req/s] [内存消耗：2,362.01kb] [文件加载：55]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ /Users/usher/www/imooc_o2o/application/admin/controller/Bis.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:22+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.048951s][吞吐率：20.43req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:25+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.047912s][吞吐率：20.87req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:36+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html?page=2
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html?page=2 [运行时间：0.047601s][吞吐率：21.01req/s] [内存消耗：2,486.62kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:40+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html?page=1
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html?page=1 [运行时间：0.052363s][吞吐率：19.10req/s] [内存消耗：2,541.86kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/apply.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:41+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.048427s][吞吐率：20.65req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:42+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.057851s][吞吐率：17.29req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:47+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.047209s][吞吐率：21.18req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:51+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.044950s][吞吐率：22.25req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:52+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.059670s][吞吐率：16.76req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:28:53+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.047744s][吞吐率：20.95req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:29:12+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html?page=2
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html?page=2 [运行时间：0.046902s][吞吐率：21.32req/s] [内存消耗：2,486.62kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:29:48+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html?page=1
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html?page=1 [运行时间：0.050077s][吞吐率：19.97req/s] [内存消耗：2,541.02kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/apply.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:33:08+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.135001s][吞吐率：7.41req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:33:09+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.046967s][吞吐率：21.29req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:33:09+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.065918s][吞吐率：15.17req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:33:15+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.045758s][吞吐率：21.85req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:33:15+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.057888s][吞吐率：17.27req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:47:41+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.098011s][吞吐率：10.20req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:47:56+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.055982s][吞吐率：17.86req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:52:05+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.139953s][吞吐率：7.15req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:53:13+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.057999s][吞吐率：17.24req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:25+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.106408s][吞吐率：9.40req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:26+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.049700s][吞吐率：20.12req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:27+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.057231s][吞吐率：17.47req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:30+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?page=2
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?page=2 [运行时间：0.056785s][吞吐率：17.61req/s] [内存消耗：2,557.98kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:32+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?page=1
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?page=1 [运行时间：0.056853s][吞吐率：17.59req/s] [内存消耗：2,612.39kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:04:39+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.157986s][吞吐率：6.33req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:04:41+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name= [运行时间：0.057387s][吞吐率：17.43req/s] [内存消耗：2,613.00kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'city_id' => '0',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:04:43+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name= [运行时间：0.057146s][吞吐率：17.50req/s] [内存消耗：2,613.31kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'city_id' => '0',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:04:44+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name= [运行时间：0.060707s][吞吐率：16.47req/s] [内存消耗：2,613.31kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'city_id' => '0',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:04:44+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name= [运行时间：0.059065s][吞吐率：16.93req/s] [内存消耗：2,613.31kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'city_id' => '0',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:04:45+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name= [运行时间：0.091182s][吞吐率：10.97req/s] [内存消耗：2,613.31kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'city_id' => '0',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:04:46+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name= [运行时间：0.060027s][吞吐率：16.66req/s] [内存消耗：2,613.31kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'city_id' => '0',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:06:54+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.058743s][吞吐率：17.02req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:06:55+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name= [运行时间：0.064780s][吞吐率：15.44req/s] [内存消耗：2,613.84kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'city_id' => '0',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:06:57+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name= [运行时间：0.062891s][吞吐率：15.90req/s] [内存消耗：2,613.31kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'city_id' => '0',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:06:57+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name= [运行时间：0.057290s][吞吐率：17.46req/s] [内存消耗：2,613.31kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=0&city_id=0&start_time=&end_time=&name=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '0',
+  'city_id' => '0',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:08:30+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.155777s][吞吐率：6.42req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:08:33+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?page=2
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?page=2 [运行时间：0.054274s][吞吐率：18.43req/s] [内存消耗：2,557.98kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:08:35+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?page=1
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?page=1 [运行时间：0.058080s][吞吐率：17.22req/s] [内存消耗：2,612.39kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:08:47+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=1&city_id=5&start_time=&end_time=&name=1
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=1&city_id=5&start_time=&end_time=&name=1 [运行时间：0.060366s][吞吐率：16.57req/s] [内存消耗：2,579.91kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html?page=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '1',
+  'city_id' => '5',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:08:56+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/add.html
+[ log ] localhost:88/imooc_o2o/public/admin/featured/add.html [运行时间：0.029024s][吞吐率：34.45req/s] [内存消耗：1,366.10kb] [文件加载：44]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->add[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/add.html [ array (
+  0 => 'types',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:08:56+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/
+[ log ] localhost:88/imooc_o2o/public/admin/featured/ [运行时间：0.043919s][吞吐率：22.77req/s] [内存消耗：2,442.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/featured/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T17:08:57+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/featured/index.html [运行时间：0.051251s][吞吐率：19.51req/s] [内存消耗：2,443.16kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:40:53+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.170767s][吞吐率：5.86req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:40:56+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.057922s][吞吐率：17.26req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:42:24+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.048135s][吞吐率：20.77req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:42:26+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.058431s][吞吐率：17.11req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:42:33+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.057844s][吞吐率：17.29req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:42:40+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.058382s][吞吐率：17.13req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:42:40+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.066385s][吞吐率：15.06req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:42:40+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.075932s][吞吐率：13.17req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:42:45+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.057563s][吞吐率：17.37req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:43:28+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.087398s][吞吐率：11.44req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:43:28+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.113753s][吞吐率：8.79req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T20:43:35+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.057901s][吞吐率：17.27req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T21:05:00+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.168836s][吞吐率：5.92req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T21:05:01+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.061866s][吞吐率：16.16req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T21:05:08+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html?category_id=2&city_id=2&start_time=&end_time=&name=
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html?category_id=2&city_id=2&start_time=&end_time=&name= [运行时间：0.059521s][吞吐率：16.80req/s] [内存消耗：2,534.97kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '2',
+  'city_id' => '2',
+  'start_time' => '',
+  'end_time' => '',
+  'name' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T21:05:10+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.053454s][吞吐率：18.71req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T21:05:13+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/
+[ log ] localhost:88/imooc_o2o/public/admin/featured/ [运行时间：0.046914s][吞吐率：21.32req/s] [内存消耗：2,444.48kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/featured/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:05:10+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html?page=2
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html?page=2 [运行时间：0.094228s][吞吐率：10.61req/s] [内存消耗：2,486.62kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:05:17+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/index.html [运行时间：0.070991s][吞吐率：14.09req/s] [内存消耗：2,611.22kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/index.html [ array (
+  0 => 'Category',
+  1 => 'City',
+  2 => 'Deal',
+  3 => 'arrcate',
+  4 => 'arrcity',
+  5 => 'category_id',
+  6 => 'city_id',
+  7 => 'name',
+  8 => 'start_time',
+  9 => 'end_time',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:05:19+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/deal/apply.html
+[ log ] localhost:88/imooc_o2o/public/admin/deal/apply.html [运行时间：0.050454s][吞吐率：19.82req/s] [内存消耗：2,539.85kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ /Users/usher/www/imooc_o2o/application/admin/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/deal/apply.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:06:25+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/add.html
+[ log ] localhost:88/imooc_o2o/public/admin/featured/add.html [运行时间：0.043500s][吞吐率：22.99req/s] [内存消耗：1,366.10kb] [文件加载：44]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->add[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/add.html [ array (
+  0 => 'types',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:06:26+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/
+[ log ] localhost:88/imooc_o2o/public/admin/featured/ [运行时间：0.079929s][吞吐率：12.51req/s] [内存消耗：2,444.48kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/featured/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:06:26+08:00 ] ::1 ::1 GET /imooc_o2o/public/admin/featured/index.html
+[ log ] localhost:88/imooc_o2o/public/admin/featured/index.html [运行时间：0.062771s][吞吐率：15.93req/s] [内存消耗：2,444.79kb] [文件加载：57]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /Users/usher/www/imooc_o2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'featured',
+  2 => 'type_id',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:35+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/index/index
+[ log ] localhost:88/imooc_o2o/public/bis/index/index [运行时间：0.046302s][吞吐率：21.60req/s] [内存消耗：1,804.13kb] [文件加载：50]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Index.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:35+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/index/index
+[ log ] localhost:88/imooc_o2o/public/bis/index/index [运行时间：0.034100s][吞吐率：29.33req/s] [内存消耗：1,663.09kb] [文件加载：48]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Index.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:39+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/location/add.html
+[ log ] localhost:88/imooc_o2o/public/bis/location/add.html [运行时间：0.066868s][吞吐率：14.95req/s] [内存消耗：2,663.21kb] [文件加载：62]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->add[ /Users/usher/www/imooc_o2o/application/bis/controller/Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/location/add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:39+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/location/index.html
+[ log ] localhost:88/imooc_o2o/public/bis/location/index.html [运行时间：0.063273s][吞吐率：15.80req/s] [内存消耗：2,654.73kb] [文件加载：61]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Location->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Location.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/location/index.html [ array (
+  0 => 'citys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:41+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/deal/index.html
+[ log ] localhost:88/imooc_o2o/public/bis/deal/index.html [运行时间：0.061867s][吞吐率：16.16req/s] [内存消耗：2,713.24kb] [文件加载：61]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/deal/index.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:43+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/deal/add.html
+[ log ] localhost:88/imooc_o2o/public/bis/deal/add.html [运行时间：0.068131s][吞吐率：14.68req/s] [内存消耗：2,697.38kb] [文件加载：63]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->add[ /Users/usher/www/imooc_o2o/application/bis/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/deal/add.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+  2 => 'bislocations',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:44+08:00 ] ::1 ::1 GET /imooc_o2o/public/bis/deal/
+[ log ] localhost:88/imooc_o2o/public/bis/deal/ [运行时间：0.048955s][吞吐率：20.43req/s] [内存消耗：2,568.44kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/30.0.0.113',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/deal/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Deal->index[ /Users/usher/www/imooc_o2o/application/bis/controller/Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/bis/view/deal/index.html [ array (
+  0 => 'deal',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:49+08:00 ] ::1 ::1 POST /imooc_o2o/public/api/city/getcitysbyparentid.html
+[ log ] localhost:88/imooc_o2o/public/api/city/getcitysbyparentid.html [运行时间：0.066222s][吞吐率：15.10req/s] [内存消耗：2,295.65kb] [文件加载：52]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:88',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/deal/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ /Users/usher/www/imooc_o2o/application/api/controller/City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:52+08:00 ] ::1 ::1 POST /imooc_o2o/public/api/category/getcategorybyparentid.html
+[ log ] localhost:88/imooc_o2o/public/api/category/getcategorybyparentid.html [运行时间：0.055429s][吞吐率：18.04req/s] [内存消耗：2,256.35kb] [文件加载：54]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:88',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/bis/deal/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Phpstorm-c3e0bcb2=2af89e80-66f1-4216-8f1d-a1df5b9a4bce; Huiskin=red; PHPSESSID=a605c7fee6bffb32c31c7740facddcbc; SQLiteManager_currentLangue=2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ /Users/usher/www/imooc_o2o/application/api/controller/Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

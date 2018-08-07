@@ -1,0 +1,6 @@
+[ 2018-06-14T14:28:20+08:00 ] [ error ] [0]类型错误: Too few arguments to function app\common\model\Category::getNormalCategoryByParentId(), 0 passed in /Users/usher/www/imooc_o2o/application/admin/controller/Bis.php on line 32 and exactly 1 expected[/Users/usher/www/imooc_o2o/application/common/model/Category.php:55]
+
+---------------------------------------------------------------
+[ 2018-06-14T22:08:52+08:00 ] [ error ] [2]implode(): Invalid arguments passed[/Users/usher/www/imooc_o2o/application/common/model/Category.php:58]
+
+---------------------------------------------------------------

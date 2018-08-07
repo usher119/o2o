@@ -1,0 +1,87 @@
+[ 2018-06-28T13:34:55+08:00 ] ::1 ::1 GET /imooc_o2o/public/index/user/index.html
+[ log ] localhost:88/imooc_o2o/public/index/user/index.html [运行时间：0.178077s][吞吐率：5.62req/s] [内存消耗：1,417.26kb] [文件加载：43]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'UM_distinctid=164119540612b8-05a7c5e5dc8a1-17366952-13c680-1641195406238; CNZZDATA1271230489=442464149-1529299860-null%7C1529299860; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529567588; PHPSESSID=7e45f5e476c62684951d4f5ffa49a822',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-28T15:44:16+08:00 ] ::1 ::1 GET /imooc_o2o/public/index/user/index.html
+[ log ] localhost:88/imooc_o2o/public/index/user/index.html [运行时间：0.109677s][吞吐率：9.12req/s] [内存消耗：1,417.27kb] [文件加载：43]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'UM_distinctid=164119540612b8-05a7c5e5dc8a1-17366952-13c680-1641195406238; CNZZDATA1271230489=442464149-1529299860-null%7C1529299860; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529567588; PHPSESSID=7e45f5e476c62684951d4f5ffa49a822',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-28T21:40:56+08:00 ] ::1 ::1 GET /imooc_o2o/public/index/user/index.html
+[ log ] localhost:88/imooc_o2o/public/index/user/index.html [运行时间：0.101220s][吞吐率：9.88req/s] [内存消耗：1,417.27kb] [文件加载：43]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/imooc_o2o/public/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'UM_distinctid=164119540612b8-05a7c5e5dc8a1-17366952-13c680-1641195406238; CNZZDATA1271230489=442464149-1529299860-null%7C1529299860; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529567588; PHPSESSID=7e45f5e476c62684951d4f5ffa49a822',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

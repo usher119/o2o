@@ -1,0 +1,50 @@
+[ 2018-07-08T17:11:12+08:00 ] ::1 ::1 GET /imooc_o2o/public/index/
+[ log ] localhost:88/imooc_o2o/public/index/ [运行时间：0.643897s][吞吐率：1.55req/s] [内存消耗：2,577.20kb] [文件加载：59]
+[ info ] [ LANG ] /Users/usher/www/imooc_o2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:88',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:88/test1/usher.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'UM_distinctid=164119540612b8-05a7c5e5dc8a1-17366952-13c680-1641195406238; CNZZDATA1271230489=442464149-1529299860-null%7C1529299860; Hm_lvt_080836300300be57b7f34f4b3e97d911=1529567588',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/usher/www/imooc_o2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/usher/www/imooc_o2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'ss',
+  7 => 'rs',
+  8 => 'datas',
+  9 => 'meishicates',
+  10 => 'controller',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

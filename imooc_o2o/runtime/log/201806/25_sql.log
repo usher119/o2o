@@ -1,0 +1,33 @@
+[ 2018-06-25T14:34:48+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.004723s ] mysql:dbname=o2os;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008849s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000660s ]
+
+---------------------------------------------------------------
+[ 2018-06-25T14:34:50+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000481s ] mysql:dbname=o2os;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004647s ]
+[ sql ] [ SQL ] UPDATE `o2o_category`  SET `status`=1,`update_time`=1529908490  WHERE  `id` = 19 [ RunTime:0.009755s ]
+
+---------------------------------------------------------------
+[ 2018-06-25T14:34:53+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:dbname=o2os;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004512s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000595s ]
+
+---------------------------------------------------------------
+[ 2018-06-25T14:34:55+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:dbname=o2os;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.004840s ]
+[ sql ] [ SQL ] UPDATE `o2o_category`  SET `status`=0,`update_time`=1529908495  WHERE  `id` = 19 [ RunTime:0.001011s ]
+
+---------------------------------------------------------------
+[ 2018-06-25T14:34:59+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.002492s ] mysql:dbname=o2os;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.003392s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000486s ]
+
+---------------------------------------------------------------
+[ 2018-06-25T14:44:37+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:dbname=o2os;host=localhost;port=8889;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006589s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001545s ]
+
+---------------------------------------------------------------
